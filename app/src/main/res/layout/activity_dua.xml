@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mnurilmanbaehaqi.hikmah.DuaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#f1c40f">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AQIDAH"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:paddingStart="50dp"
+                android:textSize="30dp"
+                android:textColor="#d35400"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="#ecf0f1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aqidah secara bahasa bermakna ikatan yang kuat. Sementara secara istilah, aqidah adalah ikatan kepercayaan yang kuat dari seorang hamba kepada Allah SWT. Aqidah juga adalah tentang iman dan mengesakan Allah (Tauhid) yang merupakan konsep bahwa tiada Tuhan selain Allah SWT. Tauhid sendiri dapat dibagi menjadi tiga macam: Tauhid Uluhiyyah (pengesaaan Allah dalam ibadah, bahwa tiada zat yang patut dan layak dan boleh disembah selain Allah SWT); Tauhid Rububiyyah (pengesaan Allah dalam perbuatan-Nya, bahwa hanya Allah SWT sajalah yang menciptakan alam semesta ini dan menjaganya, tidak ada yang lain yang mampu melakukannya); Tauhid Asma’ wa Ashifat (pengesaan Allah dalam nama dan sifat-Nya, bahwa makhluk di alam semesta ini yang serupa dengan Allah SWT dalam dzat, nama, dan sifat). Salah satu pemahaman atas konsepsi Akidah ini adalah bahwa semua makhluk itu berada dalam pengawasan Allah SWT, Dzat Yang Maha Mencipta dan Memelihara. Maka, seyogianyalah manusia bisa menjaga sikap dan perilaku yang baik dan menghindarkan sikap dan perilaku yang buruk dan penuh konflik dan kekerasan. Hal ini karena tidak sejalan dengan nilai nilai yang diajarkan dalam Islam."                android:padding="30dp"
+                android:textSize="20dp"
+                android:textColor="#16a085"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

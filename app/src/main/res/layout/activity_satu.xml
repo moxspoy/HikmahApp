@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mnurilmanbaehaqi.hikmah.SatuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#f1c40f">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KETUHANAN"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:paddingStart="50dp"
+                android:textSize="30dp"
+                android:textColor="#d35400"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="#ecf0f1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuhan dalam ajaran Islam adalah Allah, Dzat Yang Maha Esa, Sang Maha Mencipta dan Menguasai alam semesta. Ia adalah Dzat yang semua makhluk bersandar kepada-Nya. Dia tidak beranak dan tidak pula diperanakan. Allah adalah Dzat Maha dan tidak ada yang setara dengan-Nya. Selain kata ‘Allah’, Tuhan dalam Islam juga terkadang disebut dengan kata ‘Ilaah’, atau ‘Rabb’. Allah SWT memiliki Sembilan puluh Sembilan nama yang dikenal dengan ‘Al Asmaa al Husna’. Penting untuk ditelaah di sini adalah bahwa di antara nama-nama Allah SWT tersebut, ada nama-nama yang bermakna penuh dengan kasih sayang dan perdamaian. Ar-Rahman yang berarti Yang Maha Pengasih; Ar-Rahim yang bermakna Yang Maha Penyayang; dan As-Salam yang berarti Yang Maha Penyelamat. Sebagai hamba Allah seyogyanya kita meneladani sifat pengasih, penyayang, dan penyelamat untuk kedamaian dunia baik kepada sesama manusia, maupun kepada makhluk Allah yang lain yang terdiri atas binatang dan tumbuhan, ataupun benda mati. Demikianlah yang bisa kita pelajari dari konsep ketuhanan dan nama-nama Tuhan dalam Islam untuk kedamaian dunia. "
+                android:padding="30dp"
+                android:textSize="20dp"
+                android:textColor="#16a085"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

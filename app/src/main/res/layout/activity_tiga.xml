@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mnurilmanbaehaqi.hikmah.TigaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#f1c40f">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SYARIAH"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:paddingStart="50dp"
+                android:textSize="30dp"
+                android:textColor="#d35400"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="#ecf0f1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syariah secara bahasa adalah jalan. Maksudnya tentu adalah jalan yang ditempuh manusia untuk menjuju Tuhannya. Sementara itu secara istilah Syariah adalah hukum atau peraturan yang mengatur tata hidup Muslim supaya dapat hidup dengan baik di dunia dan akhirat. Sumber hukum Islam adalah Al-Quran dan Al Hadits. Hasil ijtihad dapat menjadi sumber hukum yang ketiga bila diperlukan. Syariah terdiri atas ibadah dan muamalah. Ibadah adalah cara hamba Allah berhubungan dan berkomunikasi serta menunjukkan ketakwaan kepada Allah SWT. Sementara muamalah adalah cara manusia berhubungan dengan sesama manusia, baik muslim maupun non Muslim. Di dalam menjaga hubungan baik sesama manusia dengan kejujuran, sikap bisa dipercaya, dan sikap penuh perdamaian dan menghindari konflik dan peperangan dengan sesama manusia."
+                android:padding="30dp"
+                android:textSize="20dp"
+                android:textColor="#16a085"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

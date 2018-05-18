@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mnurilmanbaehaqi.hikmah.LimaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#f1c40f">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AL-QURAN"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:paddingStart="50dp"
+                android:textSize="30dp"
+                android:textColor="#d35400"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="#ecf0f1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al-Quran adalah kitab suci umat Islam yang merupakan kalamullaah yang diturunkan kepada Nabi Muhammad SAW secara berangsur-angsur sebagai pedoman hidup manusia dan pembeda antara yang haqq dan yang bathil. Di dalam Al-Quran terdapat ayat-ayat yang mengandung makna keselamatan dan kedamaian. Setidaknya ada 59 ayat di dalam Al-Quran yang memiliki indikasi pesan damai dan keselamatan. Contoh ayatnya adalah, “Dan jika mereka condong kepada perdamaian, maka condonglah kepadanya dan bertawakalah kepada Allah. Sesungguhnya Dialah Yang Maha Mendengar lagi Maha Mengetahui. (Q.S. Al-Anfaal:61)"
+                android:padding="30dp"
+                android:textSize="20dp"
+                android:textColor="#16a085"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

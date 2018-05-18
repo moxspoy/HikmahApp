@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/bg2"
+    tools:context="com.example.mnurilmanbaehaqi.hikmah.LauncherActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/unj"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:text="@string/hikmah_damai"
+            android:layout_gravity="center"
+            android:textColor="@color/putih"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="Pengembangan bahan ajar PAI berbasis Android oleh Firdaus Wajdi"
+            android:layout_gravity="center"
+            android:textColor="@color/putih"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnCon"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/colorPrimary"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textSize="30dp"
+        android:textColor="@color/putih"/>
+</LinearLayout>
